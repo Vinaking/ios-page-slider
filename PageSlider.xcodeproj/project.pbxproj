@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A668AD8A2B60E01D00BC2EDA /* SpecificDotPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668AD892B60E01D00BC2EDA /* SpecificDotPageControl.swift */; };
 		A67D07C52B5F9D2100FEA34F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D07C42B5F9D2100FEA34F /* AppDelegate.swift */; };
 		A67D07C72B5F9D2100FEA34F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D07C62B5F9D2100FEA34F /* SceneDelegate.swift */; };
 		A67D07C92B5F9D2100FEA34F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D07C82B5F9D2100FEA34F /* ViewController.swift */; };
 		A67D07CC2B5F9D2100FEA34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67D07CA2B5F9D2100FEA34F /* Main.storyboard */; };
 		A67D07CE2B5F9D2300FEA34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67D07CD2B5F9D2300FEA34F /* Assets.xcassets */; };
 		A67D07D12B5F9D2300FEA34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67D07CF2B5F9D2300FEA34F /* LaunchScreen.storyboard */; };
+		A67D07DA2B5F9E6400FEA34F /* PagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D07D82B5F9E6400FEA34F /* PagerCell.swift */; };
+		A67D07DB2B5F9E6400FEA34F /* PagerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67D07D92B5F9E6400FEA34F /* PagerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A668AD892B60E01D00BC2EDA /* SpecificDotPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDotPageControl.swift; sourceTree = "<group>"; };
 		A67D07C12B5F9D2100FEA34F /* PageSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67D07C42B5F9D2100FEA34F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67D07C62B5F9D2100FEA34F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		A67D07CD2B5F9D2300FEA34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67D07D02B5F9D2300FEA34F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67D07D22B5F9D2300FEA34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67D07D82B5F9E6400FEA34F /* PagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerCell.swift; sourceTree = "<group>"; };
+		A67D07D92B5F9E6400FEA34F /* PagerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				A67D07CD2B5F9D2300FEA34F /* Assets.xcassets */,
 				A67D07CF2B5F9D2300FEA34F /* LaunchScreen.storyboard */,
 				A67D07D22B5F9D2300FEA34F /* Info.plist */,
+				A67D07D82B5F9E6400FEA34F /* PagerCell.swift */,
+				A67D07D92B5F9E6400FEA34F /* PagerCell.xib */,
+				A668AD892B60E01D00BC2EDA /* SpecificDotPageControl.swift */,
 			);
 			path = PageSlider;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67D07D12B5F9D2300FEA34F /* LaunchScreen.storyboard in Resources */,
+				A67D07DB2B5F9E6400FEA34F /* PagerCell.xib in Resources */,
 				A67D07CE2B5F9D2300FEA34F /* Assets.xcassets in Resources */,
 				A67D07CC2B5F9D2100FEA34F /* Main.storyboard in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67D07C92B5F9D2100FEA34F /* ViewController.swift in Sources */,
+				A67D07DA2B5F9E6400FEA34F /* PagerCell.swift in Sources */,
 				A67D07C52B5F9D2100FEA34F /* AppDelegate.swift in Sources */,
+				A668AD8A2B60E01D00BC2EDA /* SpecificDotPageControl.swift in Sources */,
 				A67D07C72B5F9D2100FEA34F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
